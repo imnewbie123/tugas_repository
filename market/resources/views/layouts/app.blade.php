@@ -26,21 +26,14 @@ echo "Today is " . date("Y-m-d") . "<br>";
 </div>
         <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <nav class="navbar navbar-expand-sm bg-dark">
-    <div class="container-fluid">
-    <!-- Links -->
-         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="{{ url('/barang' )}}">Manajemen Barang</a>
-          </li>
-            <li class="nav-item ">
-                <a class="nav-link text-white" href="{{ url('/transaksi' )}}">Transaksi</a>
-             </li>
-             <li>
-
-             </li>
-         </ul>
-    </div>
     </nav>
+    
+     <div>
+    <a href="http://market.test/">
+        <img src="panah.png" width="50" >
+    </a>   
+    </div>
+    <body>
 
     <body>
         
