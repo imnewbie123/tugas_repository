@@ -1,0 +1,323 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  color: #5a3fc0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+
+
+.nav-links a:hover {
+  background-color: #eee;
+  color: #451ed3;
+}
+
+
+.sectionberanda {
+  background: linear-gradient(135deg, #6c63ff, #a855f7);
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  width: 100vw;
+  height: 72vh; /* << Tambahkan ini untuk buat full tinggi layar */
+  display: flex; /* Tambahkan ini agar konten di tengah */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.text {
+    font-size: 30px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.tentang {
+  padding: 4rem 2rem;
+}
+
+.h1 {
+    text-align: center;
+}
+.text3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  margin-left: 40px;
+  margin-right: 30px;
+  color: #000000;;
+}
+.fotoprofil {
+  width: 150px;
+  height: 150px;
+  margin-left: 569px;
+  object-fit: cover;       /* Memastikan gambar penuh tanpa distorsi */
+  border-radius: 50%;      /* Membuat foto jadi bulat */
+  border: 4px solid white; /* Tambahkan garis putih pinggir */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* (Opsional) bayangan agar elegan */
+  margin-bottom: 1.5rem;
+}
+
+/* Section umum */
+.section {
+  padding: 4rem 2rem;
+  
+  margin: auto;
+}
+
+/* Keahlian */
+
+.text2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keahlian-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.kartu-keahlian {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.kartu-keahlian:hover {
+  transform: translateY(-5px);
+}
+
+.kartu-keahlian img {
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.kartu-keahlian h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+
+.kartu-keahlian p {
+  font-size: 0.9rem;
+  color: #777;
+}
+.proyek {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.judul {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.container-proyek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: white;
+  font-weight: bold;
+}
+
+.tag.html { background: #e34c26; }
+.tag.css { background: #264de4; }
+.tag.js { background: #f0db4f; color: #323330; }
+.tag.react { background: #61dafb; color: #20232a; }
+.tag.chakra { background: #319795; }
+.tag.api { background: #ef4444; }
+
+
+.kontak {
+  padding: 4rem 1rem;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.kontak-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.kontak .judul {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.kontak .deskripsi {
+  color: #4b5563;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.formulir {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulir label {
+  text-align: left;
+  font-weight: 500;
+  color: #374151;
+}
+
+.formulir input,
+.formulir textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.formulir input:focus,
+.formulir textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.formulir button {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.formulir button:hover {
+  background-color: #4338ca;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .beranda {
+    padding: 60px 1rem; /* Tambah padding samping untuk HP */
+    margin-left: 0;
+    width: 100%;
+  }
+}
